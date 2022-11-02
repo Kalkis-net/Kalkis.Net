@@ -1,6 +1,12 @@
 body {
-    background-color: darkgray;
+    background-color: #242526;
 
 
     
+}
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    color: antiquewhite;
 }
