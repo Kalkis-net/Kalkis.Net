@@ -19,8 +19,8 @@ body {
     background-image: linear-gradient( to bottom right, rgba(79,51,176,1.0),rgba(210,53,165));
 }
 
-.container {
-    height: 100vh;
+.containerKalk {
+    height: 80vh;
     width: 100vw;
     display: grid;
     place-items: center;
