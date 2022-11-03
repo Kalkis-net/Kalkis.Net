@@ -10,8 +10,8 @@
   }
   
   body {
-    color: black;
-    background-color: white;
+    color: antiquewhite;
+    background-color: antiquewhite;
     margin: 0;
     padding: 0;
   }
@@ -31,7 +31,6 @@
   main {
     margin-left: 5rem;
     padding: 1rem;
-    padding-bottom: 300px;
   }
   
   .navbar {
@@ -263,12 +262,12 @@ header {
 }
 
 .nav__links li a:hover {
-    color: aqua;
+    color: #f76b6b;
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgb(255, 106, 106);
+    background-color: #f76b6b;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -328,7 +327,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: #ffffff;
+	color: antiquewhite;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
@@ -339,7 +338,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color: #f76b6b;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -350,7 +349,7 @@ ul{
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
+	color: antiquewhite;
 	text-decoration: none;
 	font-weight: 300;
 	color: #bbbbbb;
@@ -358,7 +357,7 @@ ul{
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #ffffff;
+	color: antiquewhite;
 	padding-left: 8px;
 }
 .footer-col .social-links a{
@@ -370,12 +369,12 @@ ul{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #ffffff;
+	color: antiquewhite;
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
-	background-color: #ffffff;
+	background-color: antiquewhite;
 }
 
 /*responsive*/
@@ -399,10 +398,11 @@ ul{
 .informasjonLink {
     color: antiquewhite;
     text-decoration: none;
-    font-size: 1px;
+    font-size: 15px;
     font-weight: lighter;
     font-style: bold;
-    color: rgb(255, 104, 104);
+    font-style: italic;
+    color: #f76b6b;
 }
 
 body::-webkit-scrollbar {
@@ -410,15 +410,11 @@ body::-webkit-scrollbar {
 }
 
 body ::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: antiquewhite;
 }
 
 body::-webkit-scrollbar-thumb {
     background: #212121;
 }
 
-.centerP {
-  text-align: center;
-  margin: auto;
-  padding: auto;
-}
+
