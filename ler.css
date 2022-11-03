@@ -1,0 +1,21 @@
+:root {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    --text-primary: rgb(16, 0, 244);
+    --text-secondary: rgb(177, 163, 163);
+    --bg-primary: rgb(238, 54, 54);
+    --bg-secondary: rgb(255, 108, 108);
+    
+}
+
+body {
+    color: black;
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
