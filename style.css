@@ -219,7 +219,60 @@ body::-webkit-scrollbar-thumb {
     background: #212121;
 }
 
+* {
+    box-sizing: border-box;
+}
+.checkbox{
+    background-color: #bbbbbb;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+}
 .centerText {
     text-align: center;
+    color: antiquewhite;
+}
+
+.kebablink{
+    color: #f76b6b;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+h3{
+    color: #f76b6b;
+    font-size: larger;
+}
+.label {
+    width: 50px;
+    height: 26px;
+    background-color: rgb(88, 84, 84);
+    justify-content: space-between;
+    display: flex;
+    border-radius: 50px;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+}
+
+.ball {
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50px;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+
+}
+
+.fa-moon {
+    color: #f1c40f;
+}
+
+.fa-sun {
+    color: #f39c12;
 }
 
