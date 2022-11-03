@@ -89,6 +89,24 @@ h1 {
     padding: auto;
 }
 
+span::before {
+    content: "Matte";
+    animation: animate infinite 10s;
+    padding-left: 10px;
+    color: rgb(255, 133, 133);
+}
+
+@keyframes animate {
+
+    50% {
+        content: "Prosent";
+    }
+
+    100% {
+        content: "Brøk";
+    }
+}
+
 .container{
 	max-width: 1170px;
 	margin:auto;
