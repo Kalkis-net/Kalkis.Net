@@ -219,4 +219,7 @@ body::-webkit-scrollbar-thumb {
     background: #212121;
 }
 
+.centerText {
+    text-align: center;
+}
 
