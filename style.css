@@ -45,7 +45,7 @@ header {
 }
 
 .nav__links li a:hover {
-    color: aqua;
+    color: #f76b6b;
 }
 
 button {
@@ -212,7 +212,7 @@ body::-webkit-scrollbar {
 }
 
 body ::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: antiquewhite;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -229,6 +229,8 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     padding: auto;
     margin: auto;
+.centerText {
+    text-align: center;
 }
 
 .label {
