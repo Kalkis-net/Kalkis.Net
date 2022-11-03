@@ -262,12 +262,12 @@ header {
 }
 
 .nav__links li a:hover {
-    color: aqua;
+    color: #f76b6b;
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgb(255, 106, 106);
+    background-color: #f76b6b;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -327,7 +327,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: #ffffff;
+	color: antiquewhite;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
@@ -338,7 +338,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color: #f76b6b;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -349,7 +349,7 @@ ul{
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
+	color: antiquewhite;
 	text-decoration: none;
 	font-weight: 300;
 	color: #bbbbbb;
@@ -357,7 +357,7 @@ ul{
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #ffffff;
+	color: antiquewhite;
 	padding-left: 8px;
 }
 .footer-col .social-links a{
@@ -369,12 +369,12 @@ ul{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #ffffff;
+	color: antiquewhite;
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
-	background-color: #ffffff;
+	background-color: antiquewhite;
 }
 
 /*responsive*/
@@ -402,7 +402,7 @@ ul{
     font-weight: lighter;
     font-style: bold;
     font-style: italic;
-    color: rgb(255, 104, 104);
+    color: #f76b6b;
 }
 
 body::-webkit-scrollbar {
@@ -410,7 +410,7 @@ body::-webkit-scrollbar {
 }
 
 body ::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: antiquewhite;
 }
 
 body::-webkit-scrollbar-thumb {
