@@ -28,6 +28,9 @@ header {
 }
 
 input[type="text"] {
+    font-size: larger;
+    text-align: center;
+    color: antiquewhite;
     align-items: center;
     margin: auto;
     padding: auto;
