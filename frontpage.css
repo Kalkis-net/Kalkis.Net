@@ -174,7 +174,7 @@ ul{
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-	color: #24262b;
+	color: #fdfdfd;
 	background-color: antiquewhite;
 }
 
@@ -218,4 +218,9 @@ body::-webkit-scrollbar-thumb {
     background: #212121;
 }
 
-
+h3 {
+    color: 24262b;
+    font-weight: lighter;
+    font-style: italic;
+    color: #f76b6b;
+}

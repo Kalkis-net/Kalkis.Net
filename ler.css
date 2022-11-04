@@ -417,4 +417,14 @@ body::-webkit-scrollbar-thumb {
     background: #212121;
 }
 
+.centerP {
+    text-align: center;
+}
 
+a {
+  color: #f76b6b;
+}
+h2 {
+  color: #79d279;
+  font-weight: lighter;
+}
