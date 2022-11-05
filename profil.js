@@ -5,6 +5,7 @@ function onSignIn(googleUser) {
     $("#image").attr('src', profile.getImageUrl());
     $(".data").css("display","block");
     $(".g-signin2").css("display","none");
+    alert("Du er logget inn");
     
 }
   function signOut() {
