@@ -273,7 +273,7 @@ body::-webkit-scrollbar-thumb {
     box-sizing: border-box;
 }
 .checkbox{
-    background-color: #bbbbbb;
+    background-color: antiquewhite;
     display: flex;
     border-radius: 50px;
     align-items: center;
