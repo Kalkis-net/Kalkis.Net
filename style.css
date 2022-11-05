@@ -62,6 +62,20 @@ input[type="text"] {
     border-radius: 50px;
 }
 
+/*PROFIL GOOGLE*/
+.data {
+    display: none;
+}
+
+.g-signin2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+
 .logo {
     cursor: pointer;
 }
