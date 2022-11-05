@@ -24,6 +24,20 @@ input {
 }
 
 table{
+    margin: auto;
+    padding: auto;
     border-width: 0;
     border-color: transparent;
+    outline: 0;
+}
+
+
+form{
+    padding: auto;
+    margin: auto;
+    align-items: center;
+}
+
+.box{
+    
 }
