@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Roboto+Slab&display=swap');
+
+body {
+    background-color: rgb(19, 19, 19);
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+
+
+
+
+input {
+    color: rgb(0,0,0);
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: transparent;
+    width: 100px;
+    height: 25px;
+    font-size: auto;
+    text-align: center;
+}
+
+table{
+    border-width: 0;
+    border-color: transparent;
+}

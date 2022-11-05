@@ -9,9 +9,12 @@
     <title>Kalkis - Prosent Kalkulator</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Images/icons8-fraction-96.png">
+    <link rel="stylesheet" href="prosent.css">
 </head>
 <body>
+    
     <header>
+        
         <a href="index.html"><img class="logo" src="Images/Untitled-1.png" alt="Logo"></a>
 
         <nav>
@@ -31,7 +34,53 @@
 
 
     <section></section>
-
+    <SCRIPT language=JavaScript>
+      
+      
+        function perc1() {
+         a = document.form1.a.value/100;
+         b = a*document.form1.b.value;
+         document.form1.total1.value = b
+         }
+        function perc2() {
+         a = document.form1.c.value;
+         b = document.form1.d.value;
+         c = a/b;
+         d = c*100;
+         document.form1.total2.value = d
+         }
+        //-->
+        </SCRIPT>
+        
+        <FORM name=form1 method="post">
+        <TABLE cellSpacing=1 cellPadding=1 border=1>
+          <TBODY>
+          <TR>
+            <TD align=middle colSpan=3><B><FONT size=5>Prosent Kalkulator</FONT></B> 
+              </TD>
+          <TR>
+            <TD>Hva er <INPUT size=5 name=a
+                                    placeholder="prosent %"
+              >  av <INPUT size=5 name=b
+                                        placeholder="det hele tallet"
+              >?</TD>
+              <TD><INPUT onclick=perc1() type=button value= = ></TD>
+            <TD>Svar: <INPUT maxLength=40 size=5 name=total1></TD>
+            
+          <TR>
+            <TD><INPUT size=5 name=c
+                              placeholder="Del av tallet"> er hvilken prosent av 
+              <INPUT size=5 name=d
+                            placeholder="det hele tallet"
+              >?</TD>
+            <form action=""></form>
+            <TD><INPUT onclick=perc2() type=button value= = ></TD>
+            <TD>Svar: <INPUT size=5 name=total2> %</TD>
+            
+          <TR>
+            <TD align=middle 
+        colSpan=3><INPUT type=reset value=Nullstill></TD></TR></TBODY></TABLE></FORM>    
+            </form>
     <div class="box"></div>
     
 
